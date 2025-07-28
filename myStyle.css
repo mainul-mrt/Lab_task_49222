@@ -1,0 +1,55 @@
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    width: 320px;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid skyblue;
+   
+
+}
+
+.gender {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.male,.female{
+    padding-bottom: 10px;
+    border: 10px solid black;
+    block-size: auto;
+
+
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: lightseagreen;
+    color: white;
+    border: none;
+    
+    
+}
